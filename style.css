@@ -1,0 +1,14 @@
+/* Fill the whole browser window with black, like space */
+body {
+  margin: 0;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Give the canvas a thin border so we can see its edges */
+#gameCanvas {
+  border: 2px solid #444;
+}
